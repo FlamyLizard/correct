@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Music and Sound/8_bit_cave_exlporation_-_5_4_23_10.04_PM.wav" type="AudioStream" id=1]
+
+[sub_resource type="GDScript" id=1]
+
+[node name="CaveMusic" type="AudioStreamPlayer"]
+stream = ExtResource( 1 )
+volume_db = -27.934
+script = SubResource( 1 )

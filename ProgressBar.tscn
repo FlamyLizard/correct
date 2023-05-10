@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Health Bar.gd" type="Script" id=1]
+[ext_resource path="res://TextureProgress.gd" type="Script" id=2]
+[ext_resource path="res://Art/unnamed.png" type="Texture" id=3]
+[ext_resource path="res://Art/unnamed (1).png" type="Texture" id=4]
+
+[node name="ProgressBar" type="ProgressBar"]
+margin_right = 4.0
+margin_bottom = 14.0
+step = 5.0
+script = ExtResource( 1 )
+
+[node name="HealthProgress" type="TextureProgress" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_under = ExtResource( 4 )
+texture_over = ExtResource( 3 )
+script = ExtResource( 2 )

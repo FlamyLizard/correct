@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Music and Sound/8_bit_in_the_grassy_plains_-_5_4_23_10.02_PM.wav" type="AudioStream" id=1]
+
+[node name="WorldMusic" type="AudioStreamPlayer"]
+stream = ExtResource( 1 )
+volume_db = -28.856
+pitch_scale = 1.24
